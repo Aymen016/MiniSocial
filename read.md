@@ -22,3 +22,26 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/your-username/minisocial.git
    cd minisocial
+   ```
+
+2. Set up a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # For Linux/Mac
+   venv\Scripts\activate     # For Windows
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Start the Flask app:
+   ```bash
+   python app.py
+   ```
+   
+5. Open your browser and navigate to:
+   ```bash
+   http://127.0.0.1:5000
+   ```
